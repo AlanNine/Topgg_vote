@@ -1,0 +1,27 @@
+{
+    "name": "topgg_vote",
+    "version": "1.0.0",
+    "description": "Um simples votador de bot para o top.gg!",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "cron": "node cron.js"
+    },
+    "keywords": [
+        "bot",
+        "topggvoter",
+        "discord",
+        "discordbotlist",
+        "tokens"
+    ],
+    "author": "notsapinho",
+    "license": "ISC",
+    "dependencies": {
+        "cron": "^1.8.2",
+        "ora": "^5.0.0",
+        "puppeteer": "^5.2.1",
+        "puppeteer-extra": "^3.1.13",
+        "puppeteer-extra-plugin-adblocker": "^2.11.6",
+        "puppeteer-extra-plugin-stealth": "^2.5.0"
+    }
+}
